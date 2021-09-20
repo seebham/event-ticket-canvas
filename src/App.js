@@ -14,6 +14,7 @@ export default function App() {
       return { ...prev, [e.target.name]: e.target.value };
     });
   };
+  const handleDownload = () => {};
   return (
     <div className="App">
       <h1>Here's your Ticket</h1>
