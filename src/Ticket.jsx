@@ -36,7 +36,7 @@ const Ticket = ({ data }) => {
       ctx.fillText(
         data.lastname.toUpperCase(),
         canvasRef.current.width / 12.6,
-        canvasRef.current.height / 2 + basey + 35
+        canvasRef.current.height / 2 + basey + 38
       );
       basey += 35;
       ctx.font = "500 20px Roboto";
